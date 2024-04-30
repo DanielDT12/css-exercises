@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -5,6 +10,25 @@ body {
 img {
   width: 100px;
   height: 100px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  max-width: 70rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.flower-card {
+  max-width: 13rem;
 }
 
 .title {
