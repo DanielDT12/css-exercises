@@ -3,15 +3,32 @@ you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
 body {
+  box-sizing: border-box;
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: white;
+  padding: .5rem 1rem;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
 }
 
 .profile-image {
